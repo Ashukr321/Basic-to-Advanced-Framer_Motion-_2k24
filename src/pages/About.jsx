@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className='h-screen bg-black text-white p-10'>
+    <div className=' bg-black text-white p-10'>
       <h1 className='text-2xl md:text-4xl my-4 text-center'>Framer motion:</h1>
       <p className='text-xl md:text-2xl'>  Framer motion is the most important and useFull animation  library use in industry : </p>
       <p> <span className='text-orange-800 text-xl'>installation process :</span> npm i framer-motion</p>
