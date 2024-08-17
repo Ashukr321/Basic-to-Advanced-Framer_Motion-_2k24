@@ -11,7 +11,7 @@ const Home = () => {
           </h1>
         </div>
         <div className="p-4">
-          <div className="w-1/2 p-2 m-auto bg-white border-2">
+          <div className=" w-full md:w-1/2 p-2 m-auto bg-white border-2">
             <Link to={'/about'}>
               <button className='p-3 border-2 px-6 bg-blue-400 hover:bg-blue-700 text-white rounded-lg'>About</button>
             </Link>
