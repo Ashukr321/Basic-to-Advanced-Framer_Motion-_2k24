@@ -1,75 +1,72 @@
-Framer Motion
-<font size="5" color="blue">Introduction</font>
-Framer Motion is a powerful animation library for React that makes it easy to create complex animations and interactions. With a simple and intuitive API, Framer Motion provides a wide range of features and hooks to help you bring your designs to life.
 
-<font size="5" color="blue">Features</font>
-<font size="4" color="green">Animations</font>
-Create complex animations with ease using Framer Motion's simple and intuitive API
-Supports a wide range of animation types, including spring, tween, and physics-based animations
-<font size="4" color="green">Gestures</font>
-Add gestures to your components to create interactive and engaging experiences
-Supports a wide range of gestures, including tap, pan, pinch, and more
-<font size="4" color="green">Variants</font>
-Create reusable animation variants to simplify your code and improve performance
-Easily switch between different animation variants to create complex and dynamic animations
-<font size="4" color="green">Scroll-Triggered Animations</font>
-Create animations that are triggered by scrolling, perfect for creating interactive and engaging experiences
-Supports a wide range of scroll-triggered animation types, including fade, slide, and more
-<font size="4" color="green">Server-Side Rendering</font>
-Framer Motion supports server-side rendering, making it easy to integrate with your existing React application
-Improve performance and SEO with Framer Motion's server-side rendering capabilities
-<font size="4" color="green">Motion Values</font>
-Create motion values to animate your components' properties with ease
-Supports a wide range of motion values, including x, y, scale, and more
-<font size="4" color="green">Layout Animations</font>
-Create layout animations to create smooth and seamless transitions between different layouts
-Supports a wide range of layout animation types, including slide, fade, and more
-<font size="4" color="green">Manual Animations</font>
-Create manual animations to have complete control over your animation's timing and behavior
-Supports a wide range of manual animation types, including spring, tween, and more
-<font size="4" color="green">Animate Presence</font>
-Create animations that are triggered by the presence or absence of a component
-Supports a wide range of animate presence types, including fade, slide, and more
-<font size="4" color="green">Fixing Distortions</font>
-Fix distortions in your animations to create smooth and seamless transitions
-Supports a wide range of distortion fixing techniques, including perspective, rotation, and more
-<font size="5" color="blue">Hooks</font>
-<font size="4" color="green">useMotionValue</font>
-Creates a motion value that can be used to animate a component's properties
-Supports a wide range of motion values, including x, y, scale, and more
-<font size="4" color="green">useTransform</font>
-Creates a transform that can be used to animate a component's properties based on a motion value
-Supports a wide range of transforms, including translate, scale, and more
-<font size="4" color="green">useSpring</font>
-Creates a spring animation that can be used to animate a component's properties
-Supports a wide range of spring animation types, including simple, complex, and more
-<font size="4" color="green">useAnimation</font>
-Creates an animation that can be used to animate a component's properties
-Supports a wide range of animation types, including spring, tween, and more
-<font size="4" color="green">useLayoutEffect</font>
-A variant of the useEffect hook that is optimized for layout animations
-Supports a wide range of layout animation types, including slide, fade, and more
-<font size="4" color="green">useReducedMotion</font>
-Returns a boolean indicating whether the user has requested reduced motion
-Supports a wide range of reduced motion types, including system, user, and more
-<font size="4" color="green">useIsPresent</font>
-Returns a boolean indicating whether the component is currently present in the DOM
-Supports a wide range of presence types, including visible, hidden, and more
-<font size="4" color="green">useViewportScroll</font>
-Returns the current scroll position and velocity of the viewport
-Supports a wide range of scroll types, including horizontal, vertical, and more
-<font size="4" color="green">useElementScroll</font>
-Returns the current scroll position and velocity of an element
-Supports a wide range of scroll types, including horizontal, vertical, and more
-<font size="4" color="green">useMotionTemplate</font>
-Creates a motion template that can be used to animate a component's properties
-Supports a wide range of motion templates, including spring, tween, and more
-<font size="4" color="green">useCycle</font>
-Creates a cycle animation that can be used to animate a component's properties
-Supports a wide range of cycle animation types, including simple, complex, and more
-<font size="4" color="green">useDragControls</font>
-Provides a set of controls for dragging a component
-Supports a wide range of drag types, including horizontal, vertical, and more
-<font size="4" color="green">useGestures</font>
-Provides a set of gestures that can be used to animate a component's properties
-Supports a wide range of gestures, including tap, pan, pinch, and more
+=====================================================
+
+Welcome to my Framer Motion repository, where I implement and explore various animations and motion effects using Framer Motion. This repository is designed to provide a comprehensive collection of Framer Motion examples, along with their code and explanations, to help developers and designers learn and practice.
+
+# Table of Contents
+Animations
+Motion Effects
+Components
+Utilities
+# Animations
+# Basic Animations
+Fade In/Out
+Time Complexity: O(1)
+Space Complexity: O(1)
+Description: Animate an element's opacity from 0 to 1 or vice versa.
+Slide In/Out
+Time Complexity: O(1)
+Space Complexity: O(1)
+Description: Animate an element's position from off-screen to on-screen or vice versa.
+Scale Up/Down
+Time Complexity: O(1)
+Space Complexity: O(1)
+Description: Animate an element's scale from 0 to 1 or vice versa.
+# Advanced Animations
+Staggered Animation
+Time Complexity: O(n)
+Space Complexity: O(n)
+Description: Animate multiple elements with a staggered delay.
+Animated Grid
+Time Complexity: O(n)
+Space Complexity: O(n)
+Description: Animate a grid of elements with a custom animation.
+Scroll-Triggered Animation
+Time Complexity: O(1)
+Space Complexity: O(1)
+Description: Animate an element when it comes into view.
+# Motion Effects
+# Entrance Animations
+Fade In
+Time Complexity: O(1)
+Space Complexity: O(1)
+Description: Animate an element's opacity from 0 to 1.
+Slide In
+Time Complexity: O(1)
+Space Complexity: O(1)
+Description: Animate an element's position from off-screen to on-screen.
+Scale Up
+Time Complexity: O(1)
+Space Complexity: O(1)
+Description: Animate an element's scale from 0 to 1.
+# Exit Animations
+Fade Out
+Time Complexity: O(1)
+Space Complexity: O(1)
+Description: Animate an element's opacity from 1 to 0.
+Slide Out
+Time Complexity: O(1)
+Space Complexity: O(1)
+Description: Animate an element's position from on-screen to off-screen.
+Scale Down
+Time Complexity: O(1)
+Space Complexity: O(1)
+Description: Animate an element's scale from 1 to 0.
+# License
+This repository is licensed under the MIT License. See LICENSE for details.
+
+# Contributing
+Contributions are welcome! If you'd like to contribute to this repository, please fork the repository and submit a pull request.
+
+# Acknowledgments
+[Your Name] for creating and maintaining this repository.
