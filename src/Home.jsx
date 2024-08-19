@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <>
-      <div className="px-10 h-screen bg-black">
+      <div className="px-10  bg-black">
         <div>
           <h1 className="text-center py-10  text-white text-4xl font-bold tracking-wider">
             welcome to Learn Framer-Motion 🤗
